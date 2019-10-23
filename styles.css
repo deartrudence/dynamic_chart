@@ -1,0 +1,45 @@
+	.chart {
+	  padding: 50px;
+	  text-align: center;
+	  font-family: 'Poppins', sans-serif;
+	  text-align: center;
+	  color: #0D3A5C;
+	 
+	}
+	.g-diagram{
+	   margin: 30px auto;
+	   width: 50%;
+
+	}
+
+	div.tooltip {
+	  position: absolute;
+	  text-align: center;
+	  padding: 10px;
+	  font: 12px sans-serif;
+	  background: lightsteelblue;
+	  pointer-events: none;
+	  color: white;
+	}
+
+	circle {
+		transition: all 0.5s ease;
+	}
+
+	button {
+		border: 1px solid #EA6324;
+    color: white;
+    background: #EA6324;
+		border-radius: 0;
+		padding: 10px;
+		box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    margin: 8px ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+	}
+
+	button:hover, button:focus, button:active{
+	  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+	  outline:none;
+	}

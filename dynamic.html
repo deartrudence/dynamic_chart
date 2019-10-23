@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dynamic Data</title>
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">  
+</head>
+<body>
+
+	<div class="chart">
+	  <h1>Hi there</h1>
+		<button id="one" data-title="The first one"data-value="first">CHART 1</button>
+		<button id="two" data-title="The second one" data-value="second">CHART 2</button>
+		<button id="three" data-title="The third one" data-value="third">CHART 3</button>
+		<div class="g-diagram"></div>
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+	<script>
+
+		// **** THE DATA ****
+
+		var companies = [
+	   	{
+	    	"city": 'US',
+	    	"first": 8.6,
+	    	"second": 45,
+	    	"third": 30
+		  },
+		  {
+		    "city": 'NYC',
+		    "first": 4,
+		    "second": 8,
+		    "third": 25
+		  },
+		  {
+		    "city": 'San Fran',
+		    "first": 2.7,
+		    "second": 38,
+		    "third": 60
+		  },
+		  {
+		    "city": 'London',
+		    "first": 2.3,
+		    "second": 28,
+		    "third": 12
+		  },
+		  {
+		    "city": 'Hong Kong',
+		    "first": 1.6,
+		    "second": 60,
+		    "third": 9
+		  }
+		]
+
+		// **** THE SETUP ****
+
+
+		//  --> ARRAYS FOR SCALES
+
+		var colors = [ '#92ddd2', '#57AA8A', "#ffd65e", "#f27f46", "#DD4A67", "#AF72C1", '#8977BA', '#6F9CEB' ]
+
+		var cities = ['Toronto', 'NYC', 'San Fran','London', 'Hong Kong']
+
+
+
+
+		// --> SCALES
+
+
+		
+
+
+		// **** PUT IT ON THE PAGE ****
+
+    //  --> CREATE SVG
+
+    //  --> SPACING AND SIZES
+
+
+
+
+	   // --> CLICK EVENT
+
+
+
+	</script>
+	
+</body>
+</html>
